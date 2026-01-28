@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./index.css";
 import heroImg from "./assets/hero.png";
-import curatedImg from "./assets/curated.png";
 import studentImg from "./assets/student.png";
 import residentialImg from "./assets/residential.png";
 import landlordImg from "./assets/landlord.png";
@@ -9,7 +8,6 @@ import tenantImg from "./assets/tenant.png";
 import berlinImg from "./assets/berlin_city.png";
 import hamburgImg from "./assets/hamburg_city.png";
 import munichImg from "./assets/munich_city.png";
-import frankfurtImg from "./assets/frankfurt_city.png";
 import lifestyleWorking from "./assets/lifestyle_working.png";
 import interiorDetail from "./assets/interior_detail.png";
 import smartKeyless from "./assets/smart_keyless.png";
@@ -48,7 +46,7 @@ const Navbar = () => {
         {["Home", "Properties", "Investors", "Landlords"].map((link) => (
           <a
             key={link}
-            href="#"
+            href="/"
             className="text-[9px] font-black uppercase tracking-[0.2em] text-text-main hover:text-accent transition-all"
           >
             {link}
@@ -161,19 +159,19 @@ function App() {
               </div>
 
               <nav className="hidden md:flex items-center gap-8 text-white/80 text-[10px] font-black uppercase tracking-widest">
-                <a href="#" className="hover:text-white transition-colors">
+                <a href="/" className="hover:text-white transition-colors">
                   Home
                 </a>
-                <a href="#" className="hover:text-white transition-colors">
+                <a href="/" className="hover:text-white transition-colors">
                   Properties
                 </a>
-                <a href="#" className="hover:text-white transition-colors">
+                <a href="/" className="hover:text-white transition-colors">
                   Agents
                 </a>
-                <a href="#" className="hover:text-white transition-colors">
+                <a href="/" className="hover:text-white transition-colors">
                   About
                 </a>
-                <a href="#" className="hover:text-white transition-colors">
+                <a href="/" className="hover:text-white transition-colors">
                   Contact
                 </a>
               </nav>
@@ -523,7 +521,7 @@ function App() {
                   </p>
                   <div className="pt-4 border-t border-black/5">
                     <a
-                      href="#"
+                      href="/"
                       className="font-black text-[10px] uppercase tracking-[0.2em] text-accent hover:translate-x-2 inline-block transition-transform"
                     >
                       Explore Units →
@@ -563,7 +561,7 @@ function App() {
                   </p>
                   <div className="pt-4 border-t border-black/5">
                     <a
-                      href="#"
+                      href="/"
                       className="font-black text-[10px] uppercase tracking-[0.2em] text-accent hover:translate-x-2 inline-block transition-transform"
                     >
                       Explore Suites →
@@ -1245,7 +1243,7 @@ function App() {
                     (link, i) => (
                       <li key={i}>
                         <a
-                          href="#"
+                          href="/"
                           className="text-white/40 hover:text-white transition-all text-sm font-black uppercase tracking-widest"
                         >
                           {link}
@@ -1269,7 +1267,7 @@ function App() {
                   ].map((link, i) => (
                     <li key={i}>
                       <a
-                        href="#"
+                        href="/"
                         className="text-white/40 hover:text-white transition-all text-sm font-black uppercase tracking-widest"
                       >
                         {link}
@@ -1286,7 +1284,7 @@ function App() {
                 <ul className="flex flex-col gap-6">
                   <li>
                     <a
-                      href="#"
+                      href="/"
                       className="text-white/60 hover:text-white transition-all text-sm font-black uppercase tracking-widest"
                     >
                       hello@fixoria.com
@@ -1294,7 +1292,7 @@ function App() {
                   </li>
                   <li>
                     <a
-                      href="#"
+                      href="/"
                       className="text-white/60 hover:text-white transition-all text-sm font-black uppercase tracking-widest"
                     >
                       Press Inquiries
@@ -1317,7 +1315,7 @@ function App() {
                 {["Instagram", "LinkedIn", "Twitter"].map((social, i) => (
                   <a
                     key={i}
-                    href="#"
+                    href="/"
                     className="hover:text-white transition-all font-black text-[10px] uppercase tracking-[0.2em]"
                   >
                     {social}
